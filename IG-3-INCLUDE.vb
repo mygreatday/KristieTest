@@ -90,6 +90,9 @@ IG-3:  ACTIVE COMPONENTS OF IG-3 INCLUDE STATEMENT
     	Include = True
     	Exit Function
     End If
+
+	'Adding comments simply to log a commit
+											
 	
 	
 	 If OptionExists("SLD") And (((OptionValue("SLD") + Attributes("H").Value) * 0.5 * Attributes("W").Value) <=2592) And Attributes("W").Value <=72 And Not OVERRIDE Then
